@@ -1,0 +1,28 @@
+{
+  "name": "beetle-wiki",
+  "version": "1.0.0",
+  "description": "The Beetle Usage Docs",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheRealBeetle/therealbeetle.github.io.git"
+  },
+  "author": "beetle-dev <beetle-dev@gmail.com>",
+  "license": "SEE IN LICENSE",
+  "private": true,
+  "scripts": {
+    "docs": "docsify serve docs",
+    "lint": "prettier --write ./**/*.{js,md,html,css,json}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.4"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.13.9",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-markdown": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1"
+  }
+}

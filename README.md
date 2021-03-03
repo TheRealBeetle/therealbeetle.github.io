@@ -1,2 +1,1 @@
-# therealbeetle.github.io
-Beetle Docs
+# The Beetle VPN
