@@ -2,5 +2,4 @@
 
 > An open source VPN designed for developers
 
-- Features:
-  - Stable and fast
+- Features: **Stable and fast**
