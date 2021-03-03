@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <title>Beetle Wiki</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description" />
     <meta
@@ -15,14 +15,54 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <a href="#"><img src="img/beetle.png" alt="Beetle" width="128"></a>
+      <p>正在努力加载中...</p>
+    </div>
     <script>
       window.$docsify = {
-        name: "",
-        repo: ""
+        name: "Beetle Wiki",
+        repo: "https://github.com/TheRealBeetle",
+        coverpage: "_coverpage.md",
+        homepage: "README.md",
+        loadSidebar: "uk/_sidebar.md",
+        loadNavbar: "_navbar.md",
+        auto2top: true,
+        maxLevel: 3,
+        subMaxLevel: 2,
+        excuteScript: true,
+        search: {
+          maxAge: 86400000,
+          placeholder: {
+            "/tw/": "檢索...",
+            "/": "Keywords Search...",
+          },
+          noData: {
+            "/tw/": "檢索不到結果...",
+            "/": "No Result...",
+          },
+          depth: 4,
+          pathNamespaces: /^(\/(cn|tw))?(\/(v1|v2))?/,
+        },
+        namelink:{
+          '/':"#/"
+        },
+        themeColor: "rgba(69, 138, 249, 1)",
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (content) {
+              return content.replace(/..\/..\/images/g, "img");
+            });
+          },
+        ],
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//unpkg.com/docsify-themeable"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-c.js"></script>
   </body>
 </html>
