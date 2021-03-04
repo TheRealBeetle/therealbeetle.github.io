@@ -1,6 +1,6 @@
 <center>
 <a href='/'>
-<img src="/img/beetle.png" width=128>
+<img src="/img/favicon.png" width=128>
 </a>
 </center>
 
@@ -10,3 +10,4 @@
 
 
 [Get Started.](README.md)
+[Download Apps](Download.md)
