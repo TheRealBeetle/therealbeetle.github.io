@@ -1,5 +1,5 @@
 - [🏠](/)
-- [Apps](/Download.md)
+- [APP](/Download.md)
 - Translations
   - [:uk: English](/uk/)
   - [:taiwan: 繁體](/tw/)
