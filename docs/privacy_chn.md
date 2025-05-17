@@ -1,6 +1,3 @@
-markdown
-
-
 # 隐私政策
 
 **生效日期：2025年5月15日**
@@ -69,5 +66,3 @@ markdown
 
 - **电子邮件**：[你的联系邮箱，如support@yourapp.com]
 - **网站**：[你的网站URL，如https://www.yourapp.com]（选填）
-
-
