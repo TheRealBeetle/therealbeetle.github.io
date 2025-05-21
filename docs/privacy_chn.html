@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>隐私政策</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  #content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #content h1, #content h2, #content h3 {
+    border-bottom: 1px solid #eee;
+  }
+  #content code {
+    background: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+  <div id="content"></div>
+  <script>
+    async function fetchMarkdown() {
+      try {
+        const response = await fetch('./privacy_chn.md');
+        const markdownText = await response.text();
+        renderMarkdown(markdownText);
+      } catch (error) {
+        console.error('Error fetching Markdown:', error);
+      }
+    }
+
+    function renderMarkdown(markdownText) {
+      const htmlContent = marked.parse(markdownText);
+      document.getElementById('content').innerHTML = htmlContent;
+    }
+
+    fetchMarkdown();
+  </script>
+</body>
+</html>
