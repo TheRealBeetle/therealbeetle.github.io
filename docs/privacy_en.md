@@ -2,7 +2,7 @@
 
 **Effective Date: May 15, 2025**
 
-[Beetle VPN] ("we," "us," or "our") respects your privacy. This Privacy Policy explains how we collect, use, store, and protect your information. Please read this policy carefully to understand our practices regarding your data.
+Beetle VPN ("we," "us," or "our") respects your privacy. This Privacy Policy explains how we collect, use, store, and protect your information. Please read this policy carefully to understand our practices regarding your data.
 
 ## 1. Information We Collect
 
@@ -64,6 +64,6 @@ We may update this Privacy Policy from time to time. Significant changes will be
 
 If you have any questions about this Privacy Policy or our data practices, please contact us at:
 
-- **Email**: [beetle.office@protonmail.com]
-- **Website**: [https://therealbeetle.github.io]
+- **Email**: beetle.office@protonmail.com
+- **Website**: https://therealbeetle.github.io
 
