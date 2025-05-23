@@ -65,5 +65,5 @@ We may update this Privacy Policy from time to time. Significant changes will be
 If you have any questions about this Privacy Policy or our data practices, please contact us at:
 
 - **Email**: beetle.office@protonmail.com
-- **Website**: https://therealbeetle.github.io
+- **Website**: [https://therealbeetle.github.io](https://therealbeetle.github.io/)
 

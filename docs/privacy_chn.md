@@ -65,4 +65,4 @@ Beetle VPN（以下简称“我们”或“应用”）尊重您的隐私权。�
 如果您对本隐私政策或我们的数据处理方式有任何疑问，请通过以下方式联系我们：
 
 - **电子邮件**：beetle.office@protonmail.com
-- **网站**：https://therealbeetle.github.io
+- **网站**：[https://therealbeetle.github.io](https://therealbeetle.github.io/)
